@@ -1,56 +1,44 @@
 # Paciente Cinco
 
-[English](README.md) · **Español**
+[Read in English](README.md) · **Español**
 
-**Casos clínicos en cinco minutos. Una decisión a la vez.**
+**Casos clínicos breves. Una decisión a la vez.**
 
-Prototipo educativo para estudiantes, internos y médicos que quieren practicar con casos breves, tomar decisiones y revisar su razonamiento mediante retroalimentación.
+Beta educativa para practicar razonamiento clínico mediante consultas guiadas, actividades breves y retroalimentación, con progreso guardado en el dispositivo.
 
-[Jugar la demo](https://paciente-cinco-demo.pablo-aguirre.chatgpt.site)
+[Probar la demo](https://paciente-cinco-demo.pablo-aguirre.chatgpt.site) · [Enviar comentarios](mailto:pablo.aguirre.araya@gmail.com)
 
-**Beta educativa:** el contenido de demostración está pendiente de revisión clínica. La demo permite explorar la experiencia de aprendizaje; no acredita competencias ni está destinada a orientar la atención de pacientes.
+**Beta jugable 0.5.1.** El contenido de demostración está pendiente de revisión clínica; su efecto educativo no se ha evaluado.
 
-<img src="assets/mobile.png" alt="Paciente Cinco beta 0.5.1 en una pantalla móvil" width="320">
+<img src="assets/mobile-overview.webp" alt="Inicio de Paciente Cinco con consulta guiada y recorrido de aprendizaje" width="300">
 
-*Captura del navegador a tamaño móvil; no sustituye una prueba en un teléfono físico.*
-
-## La propuesta
-
-Explorar una forma de practicar en sesiones cortas: presentar un caso, tomar decisiones y volver sobre lo aprendido. El recorrido combina consultas guiadas, actividades de práctica y repaso, con progreso guardado en el dispositivo.
+*Captura móvil real, 390 × 844 píxeles CSS. Interfaz en español.*
 
 ## Qué puedes probar
 
-- Un primer turno guiado en un entorno de atención primaria.
-- Actividades con decisiones clínicas, ECG y reconocimiento de sonidos respiratorios.
-- Retroalimentación y referencias para revisar las respuestas.
-- Un mapa de aprendizaje, práctica y repaso.
-- Continuación de actividades y consulta del progreso local.
+- Una primera consulta guiada, con historia, examen y decisiones.
+- Actividades de decisiones clínicas, ECG esquemáticos y sonidos respiratorios.
+- Retroalimentación y referencias preparadas, mapa de aprendizaje, repaso y progreso local.
+- Reanudar actividades a tu ritmo; las sesiones buscan ser breves, sin funcionar como exámenes cronometrados.
 
-## Estado del proyecto
+## Dentro de un caso
 
-La demo pública corresponde a la línea beta 0.5. La revisión clínica del contenido y las pruebas físicas en teléfonos siguen pendientes. No se ha evaluado todavía su efecto en el aprendizaje.
+<img src="assets/mobile-guided-case.webp" alt="Caso pediátrico ficticio con signos vitales y acciones de anamnesis y examen" width="300">
 
-El código de desarrollo se mantiene privado. Esta presentación permite conocer y probar el proyecto sin acceso al repositorio interno.
+*La demo identifica expresamente a la paciente como ficticia. [Ver la pantalla de anamnesis](assets/mobile-history.webp).*
+
+## Implementado y planificado
+
+La introducción guiada y las estaciones disponibles se pueden jugar. “General de zona” y “Hospitalario” aparecen **en preparación**; no son recorridos completos. Quedan pendientes la revisión de contenido, las pruebas en teléfonos físicos y la evaluación del aprendizaje.
+
+## Alcance y tecnología
+
+El código de desarrollo permanece privado; este repositorio contiene únicamente la presentación pública y las capturas. La app usa React, TypeScript y Vite, con IndexedDB para el progreso local. No tiene cuentas ni sincronización entre dispositivos.
+
+Las respuestas y la retroalimentación son contenido preparado, sin chat generativo en vivo. Los ECG son esquemas, no registros diagnósticos. Las solicitudes de revisión se guardan localmente y pueden exportarse; no se envían automáticamente a un servidor. La beta no certifica competencias ni orienta la atención de pacientes reales.
 
 ## Mi aporte
 
-**Dr. Pablo Aguirre Araya, médico general de zona en Arica.** Dirección del concepto educativo, definición de los recorridos y decisiones de producto, y desarrollo iterativo con apoyo de IA. La revisión clínica formal del contenido es una etapa pendiente.
+Concepto educativo, recorridos de aprendizaje y decisiones de producto, con desarrollo iterativo asistido por IA. La revisión clínica formal sigue siendo una etapa independiente pendiente. **Pablo Aguirre Araya, médico en Chile.**
 
-## Diseño y tecnología
-
-Aplicación web con TypeScript, React y Vite. El progreso se conserva en el navegador mediante IndexedDB. Incluye una estructura editorial que separa borradores, revisión y contenido elegible para distribución.
-
-Las partidas no utilizan un chat generativo en tiempo real. Las respuestas y la retroalimentación dependen del contenido preparado para cada actividad.
-
-## Límites de la demo
-
-- Progreso local, sin cuentas ni sincronización entre dispositivos.
-- Trazados ECG esquemáticos, no calibrados para diagnóstico.
-- Solicitudes de revisión guardadas localmente y exportables; no se reciben automáticamente en un servidor.
-- Algunas áreas del mapa representan desarrollo futuro.
-
-## Qué quiero aprender con las pruebas
-
-Si el primer turno se entiende, si las decisiones y la retroalimentación resultan claras y si es fácil retomar una actividad. Las primeras observaciones servirán para mejorar la experiencia antes de evaluar resultados educativos.
-
-[Probar la demo](https://paciente-cinco-demo.pablo-aguirre.chatgpt.site) · [Enviar observaciones por correo](mailto:pablo.aguirre.araya@gmail.com)
+[Probar la demo](https://paciente-cinco-demo.pablo-aguirre.chatgpt.site) · [Detalles de las capturas](docs/screenshots.md)
