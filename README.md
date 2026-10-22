@@ -10,9 +10,12 @@ An educational prototype for medical students, interns and physicians who want t
 
 **Educational beta:** demonstration content awaits clinical review. The demo is intended to explore the learning experience; it does not certify competence and is not intended to guide patient care.
 
-<img src="assets/mobile.png" alt="Paciente Cinco beta 0.5.1 showing a clinical learning journey in a mobile browser viewport" width="320">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/screenshots/turno-mobile.webp">
+  <img src="assets/screenshots/turno-desktop.webp" alt="Paciente Cinco beta 0.5.1: first guided consultation, educational warning and learning map; no real patient data" width="100%">
+</picture>
 
-*Mobile browser capture of the current demo. The app interface is in Spanish.*
+Public demo, October 22, 2026. Spanish interface; the beta warning remains visible. [Mobile capture (390 × 844, 2×)](assets/screenshots/turno-mobile.webp) · [Capture provenance](assets/screenshots/README.md).
 
 ## The idea
 
@@ -25,6 +28,10 @@ Explore short practice sessions built around a case, a decision and an opportuni
 - Feedback and references to revisit answers.
 - A learning map, practice and review.
 - Resuming activities and checking locally stored progress.
+
+## What this presentation demonstrates
+
+The demo and screenshots let visitors inspect the interface and introductory journey. They do not establish clinical accuracy, learning effectiveness or professional competence. The implementation summary is maintainer-documented; the internal code cannot be audited from this public repository.
 
 ## Project status
 

@@ -10,9 +10,12 @@ Prototipo educativo para estudiantes, internos y médicos que quieren practicar 
 
 **Beta educativa:** el contenido de demostración está pendiente de revisión clínica. La demo permite explorar la experiencia de aprendizaje; no acredita competencias ni está destinada a orientar la atención de pacientes.
 
-<img src="assets/mobile.png" alt="Paciente Cinco beta 0.5.1 en una pantalla móvil" width="320">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/screenshots/turno-mobile.webp">
+  <img src="assets/screenshots/turno-desktop.webp" alt="Paciente Cinco beta 0.5.1: primera consulta guiada, aviso educativo y mapa de aprendizaje; sin datos de pacientes reales" width="100%">
+</picture>
 
-*Captura del navegador a tamaño móvil; no sustituye una prueba en un teléfono físico.*
+Demo pública, 22 de octubre de 2026. Se conserva visible el aviso de beta. [Captura móvil (390 × 844, escala 2)](assets/screenshots/turno-mobile.webp) · [Procedencia de las capturas](assets/screenshots/README.md).
 
 ## La propuesta
 
@@ -25,6 +28,10 @@ Explorar una forma de practicar en sesiones cortas: presentar un caso, tomar dec
 - Retroalimentación y referencias para revisar las respuestas.
 - Un mapa de aprendizaje, práctica y repaso.
 - Continuación de actividades y consulta del progreso local.
+
+## Qué demuestra esta presentación
+
+La demo y las capturas permiten inspeccionar la interfaz y el recorrido inicial. No constituyen evidencia de exactitud clínica, aprendizaje efectivo ni competencia profesional. La descripción técnica procede de la documentación del autor; el código interno no es auditable desde este repositorio público.
 
 ## Estado del proyecto
 
