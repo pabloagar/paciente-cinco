@@ -1,0 +1,46 @@
+{
+  "captureDate": "2026-10-22",
+  "timezone": "America/Santiago",
+  "browser": "Google Chrome (headless, Playwright)",
+  "browserVersion": "155.0.8059.85",
+  "sourceCommit": "3355ae9f6eace0bac9846006c906215bb6c8d745",
+  "method": "Fresh contexts. Mobile 390x844 CSS px at deviceScaleFactor 2; desktop 1440x900 at 1. Original viewport screenshots, no crop, no DOM edits, no artificial screens. WebP encoding only; no recoloring or simulated dark mode.",
+  "captures": [
+    {
+      "file": "turno-mobile.webp",
+      "source": "paciente-mobile.png",
+      "url": "https://paciente-cinco-demo.pablo-aguirre.chatgpt.site/",
+      "capturedAt": "2026-10-22T11:35:59.128Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scale": 2,
+      "width": 780,
+      "height": 1688,
+      "bytes": 71408,
+      "rawSha256": "06dbee52118f90458f24d47827262a7b2377f04e44c08a08d14c84c3c8657c34",
+      "sha256": "aa7fca6f1a0452e5f437158bba1a706e36a7cccb6c09c097225ccd46d68a6c06",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "turno-desktop.webp",
+      "source": "paciente-desktop.png",
+      "url": "https://paciente-cinco-demo.pablo-aguirre.chatgpt.site/",
+      "capturedAt": "2026-10-22T11:35:59.128Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scale": 1,
+      "width": 1440,
+      "height": 900,
+      "bytes": 39650,
+      "rawSha256": "f3b91d1f5ac3fbda32941fb0e2d47b71015d247a21d31ac1779468c800405fd1",
+      "sha256": "1820bf84e05b971cdc11e7cae2e8ec78d82ac98ee5a5e89f791f4df740c4f715",
+      "status": 200,
+      "errors": []
+    }
+  ]
+}
